@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My IMC's Data </title>
+</head>
+
+<body>
+    <h1>Bienvenido a My IMC's Data </h1>
+
+    <p> My IMC's Data (M.I.D) es una herramienta interactiva orientada a brindar información útil y personalizada sobre
+        tu estado corporal. A partir de tus datos físicos, calculamos tu Índice de Masa Corporal (IMC), te sugerimos una
+        ingesta diaria de agua adecuada y te ofrecemos recomendaciones prácticas según tus resultados. Además, podés
+        guardar tus datos, recibirlos por correo y acceder a contactos profesionales de salud en la ciudad de Córdoba.
+        ¡Explorá tu bienestar de forma fácil y rápida!</p>
+    </p> <!--descripcion de la pagina y algunos 
+    detalles sobre -->
+    <hr>
+    <p>El índice de masa corporal (IMC) es la relación entre la masa corporal de una persona y su estatura. Según los
+        valores propuestos por la Organización Mundial de la Salud (OMS), el IMC es uno de los principales recursos para
+        evaluar el estado nutricional.</p>
+
+    <br><br>
+
+
+    <h2> Calculadora IMC </h2>
+
+    <form>
+        <p> Edad <input type="date" id="edad" placeholder="indica su edad" /> </p>
+
+        <p> Sexo <br><input type="radio" name="sexo" value="masculino"> Masculino
+            <input type="radio" name="sexo" value="femenino"> Femenino
+        </p>
+
+        <p> Tu Peso Corporal (en Kilogramos) <input type="number" name="peso" id="peso" step="any" placeholder="ejemplo: 80"> </p>
+
+        <p> Tu Altura (en Centimetros) <input type="number" name="altura" id="alt" step="any" placeholder="ejemplo: 1.80"></p>
+
+        
+        
+    </form>
+
+    <p>Indice de Masa Corporal <input type="number" id="resultado" readonly></p>
+
+    <button> Calcular </button> <!--jsssss-->
+
+    <hr>
+    <br>
+    <br>
+
+
+
+    <h2> Proyección de hidratación </h2>
+
+    <p> Introduzca la categoría de IMC a la que usted pertenece </p>
+
+    <form>
+        <select>
+            <option> </option>
+            <option> Desnutrición </option>
+            <option> Normal </option>
+            <option> Sobrepeso </option>
+            <option> Obesidad </option>
+
+        </select>
+    </form>
+
+    <br><br>
+
+    <p>Indice de Masa Corporal <input type="number" id="resultado" readonly></p>
+    <button> Calcular ingesta diaria de agua </button> <!--jsssss-->
+    
+<hr>
+<br>
+<br>
+
+    <h3>Recomendaciones para su IMC actual</h3>
+
+    <p>Indique su IMC </p>
+    <form>
+        <select>
+            <option> </option>
+            <option> Desnutrición </option>
+            <option> Normal </option>
+            <option> Sobrepeso </option>
+            <option> Obesidad </option>
+
+        </select>
+    </form>
+    <br>
+    <button> Conocer recomendación </button>
+    <hr>
+    <br>
+    <br>
+
+    <h3> ¿Considera esta información valiosa? Puede guardarla como historial!! </h3>
+
+    <p>Si lo desea, podemos enviarle una copia de los resultados a su correo!</p>
+
+    <form>
+
+        <p> Nombre <input type="text" id="nombre" placeholder="indique su nombre" /> </p>
+
+        <p> Apellido <input type="text" id="apellido" placeholder="indique su apellido" /> </p>
+
+        <p> Correo <input type="email" name="" id="" placeholder="myimcsdata@gmail.com"></p>
+
+    </form>
+
+    <button> Enviar </button> <!--jsssss-->
+
+    <hr>
+    <br>
+    <br>
+
+
+
+    <h3> ¿Desea consultar con un profesional? </h3>
+    <p>Podemos redireccionarlo con profesionales para realizar de consultas sobre su salud </p>
+
+    <form>
+        <p>Seleccione la clínica de su preferencia (en la ciudad de Córdoba) </p>
+
+        <select>
+            <option> </option>
+            <option>Oulton</option>
+            <option>Allende</option>
+            <option>Reina Fabiola</option>
+            <option>Hospital privado Universitario de Córdoba</option>
+        </select>
+
+        <button> Ir </button> <!--jsssss-->
+
+
+    </form>
+    <hr>
+    <br>
+    <br>
+
+
+
+    <h4>Nos interesa tu opinión!!</h4>
+    <form>
+        <p>¿Qué tan útil le ha parecido nuestra página en una escala del 1 al 7?</p>
+        <select>
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+        </select>
+
+        <p>¿Tiene alguna crítica o comentario? Puede enviarnos su opinión </p>
+        <textarea rows="10" cols="50"></textarea>
+
+        <p>Agradecemos enormemente tu opinión! Gracias por usar My IMC Data ♥</p>
+
+        <button> Enviar </button>
+
+
+    </form>
+
+
+
+</body>
+
+</html>
